@@ -774,11 +774,11 @@ body {
 .subtitle-form {
         font-family: 'Roboto';
         font-weight: 500;
-        font-size: 16px;
         line-height: 1.5;
         text-align: center;
         letter-spacing: 0.02em;
         color: var(--primary-titletxt-color);
+        margin-bottom: 16px;
         font-size: 16px;
 }
 
@@ -857,7 +857,7 @@ body {
         color: rgba(46, 47, 66, 0.4);
 }
 
-.contact-form-checkbox {
+.contact-form-checkbox-div {
         display: flex;
         align-items: center;
         font-size: 12px;

@@ -428,7 +428,7 @@
           </p>
         </div>
         <div class="footer-social">
-          <p class="footer-social-txt">Social media</p>
+          <p class="footer-paragraph">Social media</p>
           <ul class="footer-social-list list">
             <li class="site-social-icon">
               <a class="site-social-icon-item" href="">
@@ -460,8 +460,29 @@
             </li>
           </ul>
         </div>
+        <div class="subscribe-form-box">
+          <p class="footer-paragraph">Subscribe</p>
+          <form class="subscribe-form">
+            <label class="subscribe-form-field-wrapper">
+              <input
+                class="subscribe-form-email"
+                type="email"
+                name="user-email"
+                pattern="[a-zA-Z]+"
+                placeholder="E-mail"
+              />
+            </label>
+            <button class="subscribe-btn" type="submit">
+              Subscribe
+              <svg class="subscribe-icon" width="24" height="20">
+                <use href="./images/icons.svg#icon-send"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
       </div>
     </footer>
+    <!-- MODAL -->
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button class="modal-close-btn" type="button" data-modal-close>
@@ -486,11 +507,11 @@
               />
               <svg
                 class="contact-form-input-icon"
-                height="24"
+                height="18"
                 width="18"
                 aria-label="icon-name"
               >
-                <use href="./images/icons.svg#person-form-icon"></use>
+                <use href="./images/icons.svg#person-form"></use>
               </svg>
             </div>
           </div>
@@ -507,11 +528,11 @@
               />
               <svg
                 class="contact-form-input-icon"
-                height="24"
+                height="18"
                 width="18"
                 aria-label="icon-name"
               >
-                <use href="./images/icons.svg#phone-form-icon"></use>
+                <use href="./images/icons.svg#phone-form"></use>
               </svg>
             </div>
           </div>
@@ -528,11 +549,11 @@
               />
               <svg
                 class="contact-form-input-icon"
-                height="24"
+                height="18"
                 width="18"
                 aria-label="icon-name"
               >
-                <use href="./images/icons.svg#email-form-icon"></use>
+                <use href="./images/icons.svg#email-form"></use>
               </svg>
             </div>
           </div>
@@ -559,7 +580,7 @@
             <label for="user-privacy" class="contact-form-field-wrapper">
               <span class="contact-form-own-checkbox">
                 <svg class="contact-form-checkmark-icon" height="10" width="8">
-                  <use href="./images/icons.svg#checkmark-icon"></use>
+                  <use href="./images/icons.svg#checkmark"></use>
                 </svg>
               </span>
               I accept the terms and conditions of the

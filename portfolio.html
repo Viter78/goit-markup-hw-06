@@ -295,7 +295,6 @@
     </main>
 
     <!-- FOOTER -->
-
     <footer class="footer">
       <div class="container footer-container">
         <div class="footer-logo">
@@ -308,7 +307,7 @@
           </p>
         </div>
         <div class="footer-social">
-          <p class="footer-social-txt">Social media</p>
+          <p class="footer-paragraph">Social media</p>
           <ul class="footer-social-list list">
             <li class="site-social-icon">
               <a class="site-social-icon-item" href="">
@@ -340,7 +339,28 @@
             </li>
           </ul>
         </div>
+        <div class="subscribe-form-box">
+          <p class="footer-paragraph">Subscribe</p>
+          <form class="subscribe-form">
+            <label class="subscribe-form-field-wrapper">
+              <input
+                class="subscribe-form-email"
+                type="email"
+                name="user-email"
+                pattern="[a-zA-Z]+"
+                placeholder="E-mail"
+              />
+            </label>
+            <button class="subscribe-btn" type="submit">
+              Subscribe
+              <svg class="subscribe-icon" width="24" height="20">
+                <use href="./images/icons.svg#icon-send"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
       </div>
     </footer>
+    >
   </body>
 </html>

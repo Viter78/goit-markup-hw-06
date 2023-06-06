@@ -650,7 +650,7 @@ body {
         font-weight: 500;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        color: var(--secondary-bg-color);
+        color: #ffffff;
         max-width: 264px;
         margin-bottom: 16px;
 }
@@ -691,10 +691,7 @@ body {
 
 .subscribe-form {
         display: flex;
-}
-
-.subscribe-form-field-wrapper {
-        margin-right: 24px;
+        gap: 24px;
 }
 
 .subscribe-form-email {
